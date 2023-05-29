@@ -1,0 +1,50 @@
+.bi-brightness-high {
+  font-size: 100px;
+  display: block;
+  margin: 0px auto;
+  color: #ffae42;
+}
+.city {
+  margin-top: 15px;
+}
+.temp {
+  display: inline;
+}
+.card {
+  margin: 5px 5px 5px 0;
+}
+button {
+  width: 95%;
+}
+.bi {
+  font-size: 50px;
+  display: block;
+  margin: 0 auto;
+  opacity: 30%;
+}
+
+.card-text-grad {
+  text-align: center;
+}
+.weather {
+  margin: 15px;
+}
+.week {
+  color: green;
+  font-weight: 600;
+  padding-right: 2px;
+}
+.card {
+  background-color: #ddc0b4;
+}
+.days-week {
+  padding: 0;
+}
+.grad {
+  text-decoration: none;
+  font-size: 13px;
+}
+.t {
+  display: block;
+  margin: -7px auto;
+}
