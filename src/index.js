@@ -43,7 +43,9 @@ function changeCity(event) {
 }
 searchForm.addEventListener("submit", changeCity);
 let button = document.querySelector("#currentLocation");
-button.addEventListener("submit", showCurrentLocationWeather);
+button.addEventListener("submit", (ev) => {
+  navigator.geolocation.getCurrentPosition(showCurrentLocationWeather);
+});
 
 function showCurrentLocationWeather(position) {
   let latitude = position.coords.latitude;
